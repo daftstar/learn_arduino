@@ -47,7 +47,7 @@ void loop() {
   ledOff     = (second - ledOn);  // 900 ms
 
   int flashBPM;
-  flashBPM = 120;
+  flashBPM = 80;
   
   digitalWrite(LED_BUILTIN, HIGH);        // turn the LED on (HIGH is the voltage level)
   delay(ledOn/(flashBPM/secondsMin));     // wait for a second
